@@ -16,21 +16,20 @@ pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
 
-time.sleep(5)
+time.sleep(3)
 
 # entrar no link 
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
-time.sleep(3)
-
+time.sleep(1)
 
 # Passo 2: Fazer login
 # selecionar o campo de email
 pyautogui.click(x=490, y=429)
 # escrever o seu email
-pyautogui.write("jefteralexandre73@gmail.com")
+pyautogui.write("jefter@gmail.com")
 pyautogui.press("tab") # passando pro próximo campo
-pyautogui.write("Jefter18C@")
+pyautogui.write("xxxxxx")
 pyautogui.click(x=543, y=596) # clique no botao de login
 time.sleep(3)
 
@@ -69,4 +68,4 @@ for linha in tabela.index:
     pyautogui.press("enter") # cadastra o produto (botao enviar)
     # dar scroll de tudo pra cima
     pyautogui.scroll(5000)
-    # Passo 5: Repetir o processo de cadastro até o fim        
+    # Passo 5: Repetir o processo de cadastro até o fim              
