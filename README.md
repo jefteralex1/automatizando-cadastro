@@ -1,6 +1,3 @@
-Entendi. Vou integrar a informação do segundo arquivo ao README. Aqui está:
-
----
 
 # Automação de Cadastro de Produtos
 
